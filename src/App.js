@@ -28,7 +28,7 @@ export default class App extends React.Component {
     fetch(
       "https://api.openweathermap.org/data/2.5/forecast?q=" +
         value +
-        "&appid=bf1cb16f69a242df994be23ae6b21022"
+        "&appid=81c345b9415ca251a92d00c1312548e0"
     )
       .then((response) => response.json())
       .then((json) => {
